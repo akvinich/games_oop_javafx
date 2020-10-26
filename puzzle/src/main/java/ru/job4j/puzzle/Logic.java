@@ -81,7 +81,7 @@ public class Logic {
                 }
                 for (int k = 0; k < table[j].length; k++) {
                     if (table[j][k] != 1) {
-                        k = table.length;
+                        break;
                     } else if (k == table[j].length - 1){
                         return true;
                     }
